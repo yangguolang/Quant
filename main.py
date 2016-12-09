@@ -75,7 +75,9 @@ fred.key("6adc195cd52a987889011f75e9b3fa48")
 for a in all_parent:
     for item in (fred.categories(a.find("a")['href'][12:]))['categories']:
         categoriesParentList.append(item)
-analysis_categories_child(categoriesParentList)
+analysis_categories_child(categoriesParentList)\
+
+#用户与测试的鸟蛋
 
 
 
